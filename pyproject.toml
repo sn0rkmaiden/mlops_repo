@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mlops-repo"
+version = "0.1.0"
+description = ""
+authors = ["Alisa Petrova <60570090+sn0rkmaiden@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+mypy = "^1.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
